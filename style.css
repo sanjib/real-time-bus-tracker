@@ -1,0 +1,26 @@
+body { margin: 0; padding: 0; }
+#map { position: absolute; top: 0; bottom: 0; width: 100%; }
+
+.marker {
+  background-image: url('images/bus.png');
+  background-size:  cover;
+  width:            22px;
+  height:           25px;
+  cursor:           pointer;
+  box-shadow:       0 2px 3px rgba(0, 0, 0, 0.3);
+}
+
+.progress-bar-container {
+  background-color: #ccc;
+  opacity:          0.8;
+  width:            100%;
+  position:         absolute;
+  z-index:          1000;
+}
+
+.progress-bar {
+  background-color: #cc3333;
+  width:            0;
+  height:           8px;
+  transition:       width 14.9s linear;
+}
