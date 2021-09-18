@@ -2,7 +2,7 @@
 
 This app was developed as part of the requirement for week 9 of MIT xPro Web Development With JavaScript course.
 
-Live demo: https://real-time-bus-tracker.netlify.app/
+Live demo: [https://real-time-bus-tracker.netlify.app](https://real-time-bus-tracker.netlify.app)
 
 ## Description
 
