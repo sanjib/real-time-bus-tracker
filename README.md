@@ -8,7 +8,7 @@ Live demo: [https://real-time-bus-tracker.netlify.app](https://real-time-bus-tra
 
 The project displays a map of MIT and Harvard with realtime live data of bus routes between the two schools.
 
-![Screnshot of app showing real-time bus data information](./images/real-time-bus-tracker.gif)
+![Screnshot of app showing real-time bus data information](src/images/real-time-bus-tracker.gif)
 
 Other than the mapping library, the project has been coded from scratch using pure JavaScript, HTML and CSS.
 
@@ -26,7 +26,7 @@ developer account, please create an API key.
 
 ### token.js
 
-Clone or downoad the project then create a file called ```token.js``` in the root directory of the project.
+Clone or download the project then create a file called ```token.js``` in the ./src directory of the project.
 
 Set the content of the file to:
 
@@ -36,7 +36,7 @@ mapboxgl.accessToken = 'USE-YOUR-MAPBOX-API-KEY'
 
 ### Drag and Drop or Web Server
 
-You can drag the index.html file into your browser of choice, Chrome, Firefox, Opera, Safari.
+You can drag the index.html file under the ./src folder into your browser of choice, Chrome, Firefox, Opera, Safari.
 
 Ideally it's best if you can run via a web server. Here are some options:
 
@@ -44,6 +44,8 @@ Ideally it's best if you can run via a web server. Here are some options:
    plugin https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
 2. Use Browser Sync https://browsersync.io/ Install it via npm
 3. User http-server https://www.npmjs.com/package/http-server, install it via npm
+
+Then run the server inside the ./src folder.
 
 ## Features
 
