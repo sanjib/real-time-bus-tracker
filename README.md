@@ -4,18 +4,20 @@ This app was developed as part of the requirement for week 9 of MIT xPro Web Dev
 
 Live demo: [https://real-time-bus-tracker.netlify.app](https://real-time-bus-tracker.netlify.app)
 
-## Description
-
-The project displays a map of MIT and Harvard with realtime live data of bus routes between the two schools.
-
 ![Screnshot of app showing real-time bus data information](src/images/real-time-bus-tracker.gif)
 
-Other than the mapping library, the project has been coded from scratch using pure JavaScript, HTML and CSS.
+## Description
+
+The project displays a map of MIT and Harvard with realtime live data of bus routes between the two schools. The
+real-time position of the busses are updated every 15 seconds. A red bar at the top of the page animates every 15
+seconds indicating the next refresh cycle of the bus updates.
 
 The project uses 2 external resources:
 
 1. The mapping library from Mapbox
 2. The API to get real-time bus data provided by Massachusetts BayTransportation Authority
+
+Other than the mapping library, the project has been coded from scratch using pure JavaScript, HTML and CSS.
 
 ## How to Run
 
